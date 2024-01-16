@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    align-items: center;
+}
+
+#conteiner{
+    display: block;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    background-color: teal;
+}
+
+
+#box label{
+	display: block;
+  	/*margin-bottom: -10px;*/
+  	font-size: 20px;
+  	color: tan;
+  	font-weight: bold;
+}
+
+
+#box input[type= "text"],
+#box input[type= "date"],
+#box select{
+	width: 430px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    box-shadow: 4px 4px 6px 0px #cacacc;
+}
+
+/*------ INICIO --- Mensaje ------*/
+.textarea-msj{
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+
+.textarea-msj textarea{
+    resize: none;
+    font-size: 20pt;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.textarea-msj .mesaje{  
+    width: 100%;
+    height: 60px;
+    text-align: left;
+    border: none;
+    box-shadow: 4px 4px 6px 0px #cacacc;
+}
+
+
+#box input[type= "file"]{
+	width: 430px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    color: tan;
+}
